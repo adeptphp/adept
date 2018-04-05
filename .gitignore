@@ -1,0 +1,13 @@
+/build
+/node_modules
+/var/logs
+/var/cache
+/var/storage/*
+/vendor
+/.idea
+/.vscode
+/.vagrant
+npm-debug.log
+yarn-error.log
+.env
+.DS_Store

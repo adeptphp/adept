@@ -1,0 +1,30 @@
+{
+    "name": "adeptphp/adept",
+    "authors": [
+        {
+            "name": "Jim Shannon",
+            "email": "jim@hltky.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.1",
+        "adeptphp/adept-core": "@dev",
+        "jshannon63/cobalt": "@dev",
+        "psy/psysh": "@stable"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        }
+    },
+    "repositories": [
+        {
+            "type": "path",
+            "url": "/Users/jim/Code/packages/adept-core"
+        },
+        {
+            "type": "path",
+            "url": "/Users/jim/Code/packages/Cobalt"
+        }
+    ]
+}
